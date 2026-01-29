@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+padding: 10px;
+}
+.carousel-item img {
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-item:hover img {
+    transform: scale(1.05);
+  }
